@@ -14,6 +14,16 @@
 		4042C74329CE892C00138CF4 /* DoughnutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C74229CE892C00138CF4 /* DoughnutsTests.swift */; };
 		4042C74D29CE892C00138CF4 /* DoughnutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C74C29CE892C00138CF4 /* DoughnutsUITests.swift */; };
 		4042C74F29CE892C00138CF4 /* DoughnutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C74E29CE892C00138CF4 /* DoughnutsUITestsLaunchTests.swift */; };
+		4042C76029CE8AD800138CF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C75F29CE8AD800138CF4 /* HomeView.swift */; };
+		4042C76229CE985200138CF4 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76129CE985200138CF4 /* TabItem.swift */; };
+		4042C76429CE9A8800138CF4 /* TabMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76329CE9A8800138CF4 /* TabMenus.swift */; };
+		4042C76829CE9CED00138CF4 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76729CE9CED00138CF4 /* ProductModel.swift */; };
+		4042C76A29CEA03800138CF4 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76929CEA03800138CF4 /* CardItem.swift */; };
+		4042C76E29CEA51900138CF4 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76D29CEA51900138CF4 /* RoundedCorners.swift */; };
+		4042C77029CEA64300138CF4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C76F29CEA64300138CF4 /* Utils.swift */; };
+		4046BF7129CFEECE000DD26D /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7029CFEECE000DD26D /* Products.swift */; };
+		4046BF7329CFF5C7000DD26D /* Doughnuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7229CFF5C7000DD26D /* Doughnuts.swift */; };
+		4046BF7529CFF70E000DD26D /* ListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7429CFF70E000DD26D /* ListItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		4042C74829CE892C00138CF4 /* DoughnutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoughnutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042C74C29CE892C00138CF4 /* DoughnutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutsUITests.swift; sourceTree = "<group>"; };
 		4042C74E29CE892C00138CF4 /* DoughnutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4042C75F29CE8AD800138CF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4042C76129CE985200138CF4 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		4042C76329CE9A8800138CF4 /* TabMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenus.swift; sourceTree = "<group>"; };
+		4042C76529CE9C2D00138CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4042C76729CE9CED00138CF4 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		4042C76929CEA03800138CF4 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		4042C76D29CEA51900138CF4 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		4042C76F29CEA64300138CF4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4046BF7029CFEECE000DD26D /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		4046BF7229CFF5C7000DD26D /* Doughnuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doughnuts.swift; sourceTree = "<group>"; };
+		4046BF7429CFF70E000DD26D /* ListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +115,11 @@
 		4042C73029CE892B00138CF4 /* Doughnuts */ = {
 			isa = PBXGroup;
 			children = (
+				4042C76629CE9CB200138CF4 /* Datas */,
+				4042C76529CE9C2D00138CF4 /* Info.plist */,
+				4042C75D29CE894B00138CF4 /* Utils */,
+				4042C75C29CE894400138CF4 /* Models */,
+				4042C75B29CE893A00138CF4 /* Views */,
 				4042C73129CE892B00138CF4 /* DoughnutsApp.swift */,
 				4042C73329CE892B00138CF4 /* ContentView.swift */,
 				4042C73529CE892C00138CF4 /* Assets.xcassets */,
@@ -125,6 +151,60 @@
 				4042C74E29CE892C00138CF4 /* DoughnutsUITestsLaunchTests.swift */,
 			);
 			path = DoughnutsUITests;
+			sourceTree = "<group>";
+		};
+		4042C75B29CE893A00138CF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4042C76C29CEA50000138CF4 /* Shapes */,
+				4042C75E29CE8ABE00138CF4 /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4042C75C29CE894400138CF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4042C76729CE9CED00138CF4 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4042C75D29CE894B00138CF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4042C76F29CEA64300138CF4 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4042C75E29CE8ABE00138CF4 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				4042C75F29CE8AD800138CF4 /* HomeView.swift */,
+				4042C76129CE985200138CF4 /* TabItem.swift */,
+				4042C76929CEA03800138CF4 /* CardItem.swift */,
+				4046BF7429CFF70E000DD26D /* ListItems.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		4042C76629CE9CB200138CF4 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				4042C76329CE9A8800138CF4 /* TabMenus.swift */,
+				4046BF7029CFEECE000DD26D /* Products.swift */,
+				4046BF7229CFF5C7000DD26D /* Doughnuts.swift */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		4042C76C29CEA50000138CF4 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4042C76D29CEA51900138CF4 /* RoundedCorners.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +337,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4046BF7529CFF70E000DD26D /* ListItems.swift in Sources */,
+				4042C76829CE9CED00138CF4 /* ProductModel.swift in Sources */,
+				4042C76429CE9A8800138CF4 /* TabMenus.swift in Sources */,
+				4042C77029CEA64300138CF4 /* Utils.swift in Sources */,
+				4042C76029CE8AD800138CF4 /* HomeView.swift in Sources */,
 				4042C73429CE892B00138CF4 /* ContentView.swift in Sources */,
+				4042C76E29CEA51900138CF4 /* RoundedCorners.swift in Sources */,
+				4046BF7129CFEECE000DD26D /* Products.swift in Sources */,
+				4042C76229CE985200138CF4 /* TabItem.swift in Sources */,
+				4042C76A29CEA03800138CF4 /* CardItem.swift in Sources */,
 				4042C73229CE892B00138CF4 /* DoughnutsApp.swift in Sources */,
+				4046BF7329CFF5C7000DD26D /* Doughnuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +510,7 @@
 				DEVELOPMENT_TEAM = M77LNCZ652;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Doughnuts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +539,7 @@
 				DEVELOPMENT_TEAM = M77LNCZ652;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Doughnuts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
