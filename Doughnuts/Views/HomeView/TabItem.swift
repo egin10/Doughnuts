@@ -20,8 +20,11 @@ struct TabItem: View {
                 .frame(width: 30, height: 30)
                 .padding(10)
                 .overlay(RoundedRectangle(cornerRadius: 8).stroke(.black, lineWidth: 1))
+                .opacity(tabSelected == data.name ? 1.0 : 0.3)
             Text(data.name)
-                .font(.system(size: 10, weight: .semibold, design: .rounded))
+                .font(.system(size: 10,
+                              weight: .semibold,
+                              design: .rounded))
         }
         .onTapGesture {
             tabSelected = data.name
