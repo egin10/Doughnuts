@@ -45,6 +45,14 @@ struct HomeView: View {
             }
             
             Spacer()
+            CartBottomSheet(leadingText: "2 Items | $45",
+                            secodaryText: "Delivery Charges Included",
+                            buttonTitle: "View Cart",
+                            functionButton: {
+                                print("View Cart")
+                            }
+            )
+            Spacer()
         }
         .accentColor(.black)
     }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403F774429D1699000BE1792 /* HeaderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F774329D1699000BE1792 /* HeaderImage.swift */; };
+		403F774629D16BC600BE1792 /* IngredientsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F774529D16BC600BE1792 /* IngredientsItem.swift */; };
+		403F774829D1754300BE1792 /* DetailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F774729D1754300BE1792 /* DetailSection.swift */; };
+		403F774B29D1781000BE1792 /* CartBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F774A29D1781000BE1792 /* CartBottomSheet.swift */; };
 		4042C73229CE892B00138CF4 /* DoughnutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C73129CE892B00138CF4 /* DoughnutsApp.swift */; };
 		4042C73429CE892B00138CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042C73329CE892B00138CF4 /* ContentView.swift */; };
 		4042C73629CE892C00138CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4042C73529CE892C00138CF4 /* Assets.xcassets */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		403F774329D1699000BE1792 /* HeaderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImage.swift; sourceTree = "<group>"; };
+		403F774529D16BC600BE1792 /* IngredientsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsItem.swift; sourceTree = "<group>"; };
+		403F774729D1754300BE1792 /* DetailSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSection.swift; sourceTree = "<group>"; };
+		403F774A29D1781000BE1792 /* CartBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartBottomSheet.swift; sourceTree = "<group>"; };
 		4042C72E29CE892B00138CF4 /* Doughnuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doughnuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042C73129CE892B00138CF4 /* DoughnutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughnutsApp.swift; sourceTree = "<group>"; };
 		4042C73329CE892B00138CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403F774929D177F200BE1792 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				403F774A29D1781000BE1792 /* CartBottomSheet.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		4042C72529CE892B00138CF4 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +174,7 @@
 		4042C75B29CE893A00138CF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				403F774929D177F200BE1792 /* Shared */,
 				4064F29E29D12D2D0007794A /* DetailView */,
 				4042C76C29CEA50000138CF4 /* Shapes */,
 				4042C75E29CE8ABE00138CF4 /* HomeView */,
@@ -214,6 +231,9 @@
 			isa = PBXGroup;
 			children = (
 				4064F29F29D12D400007794A /* DetailView.swift */,
+				403F774329D1699000BE1792 /* HeaderImage.swift */,
+				403F774529D16BC600BE1792 /* IngredientsItem.swift */,
+				403F774729D1754300BE1792 /* DetailSection.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -348,18 +368,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403F774629D16BC600BE1792 /* IngredientsItem.swift in Sources */,
 				4046BF7529CFF70E000DD26D /* ListItems.swift in Sources */,
 				4042C76829CE9CED00138CF4 /* ProductModel.swift in Sources */,
 				4042C76429CE9A8800138CF4 /* TabMenus.swift in Sources */,
 				4042C77029CEA64300138CF4 /* Utils.swift in Sources */,
 				4042C76029CE8AD800138CF4 /* HomeView.swift in Sources */,
+				403F774829D1754300BE1792 /* DetailSection.swift in Sources */,
 				4042C73429CE892B00138CF4 /* ContentView.swift in Sources */,
+				403F774429D1699000BE1792 /* HeaderImage.swift in Sources */,
 				4042C76E29CEA51900138CF4 /* RoundedCorners.swift in Sources */,
 				4064F2A029D12D400007794A /* DetailView.swift in Sources */,
 				4046BF7129CFEECE000DD26D /* Products.swift in Sources */,
 				4042C76229CE985200138CF4 /* TabItem.swift in Sources */,
 				4042C76A29CEA03800138CF4 /* CardItem.swift in Sources */,
 				4042C73229CE892B00138CF4 /* DoughnutsApp.swift in Sources */,
+				403F774B29D1781000BE1792 /* CartBottomSheet.swift in Sources */,
 				4046BF7329CFF5C7000DD26D /* Doughnuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

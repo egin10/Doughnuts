@@ -24,6 +24,7 @@ struct ProductModel: Identifiable {
 struct IngredientModel: Identifiable {
     var id = UUID()
     var name: String
-    var wight: Int
+    var wight: Float
     var percentage: Float
+    var backgroundColor: Color
 }
