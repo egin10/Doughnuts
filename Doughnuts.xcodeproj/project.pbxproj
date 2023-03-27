@@ -24,6 +24,7 @@
 		4046BF7129CFEECE000DD26D /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7029CFEECE000DD26D /* Products.swift */; };
 		4046BF7329CFF5C7000DD26D /* Doughnuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7229CFF5C7000DD26D /* Doughnuts.swift */; };
 		4046BF7529CFF70E000DD26D /* ListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046BF7429CFF70E000DD26D /* ListItems.swift */; };
+		4064F2A029D12D400007794A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064F29F29D12D400007794A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		4046BF7029CFEECE000DD26D /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		4046BF7229CFF5C7000DD26D /* Doughnuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doughnuts.swift; sourceTree = "<group>"; };
 		4046BF7429CFF70E000DD26D /* ListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItems.swift; sourceTree = "<group>"; };
+		4064F29F29D12D400007794A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		4042C75B29CE893A00138CF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4064F29E29D12D2D0007794A /* DetailView */,
 				4042C76C29CEA50000138CF4 /* Shapes */,
 				4042C75E29CE8ABE00138CF4 /* HomeView */,
 			);
@@ -205,6 +208,14 @@
 				4042C76D29CEA51900138CF4 /* RoundedCorners.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		4064F29E29D12D2D0007794A /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				4064F29F29D12D400007794A /* DetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +355,7 @@
 				4042C76029CE8AD800138CF4 /* HomeView.swift in Sources */,
 				4042C73429CE892B00138CF4 /* ContentView.swift in Sources */,
 				4042C76E29CEA51900138CF4 /* RoundedCorners.swift in Sources */,
+				4064F2A029D12D400007794A /* DetailView.swift in Sources */,
 				4046BF7129CFEECE000DD26D /* Products.swift in Sources */,
 				4042C76229CE985200138CF4 /* TabItem.swift in Sources */,
 				4042C76A29CEA03800138CF4 /* CardItem.swift in Sources */,

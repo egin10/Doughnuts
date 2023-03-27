@@ -34,10 +34,19 @@ struct HomeView: View {
             }.padding(.vertical)
             
             // Items
-            ListItemsView(tabSelected: $tabSelected)
+            if products[tabSelected] != nil {
+                ListItemsView(tabSelected: $tabSelected)
+            } else {
+                VStack {
+                    Spacer()
+                    Text("Data Empty")
+                    Spacer()
+                }
+            }
             
             Spacer()
         }
+        .accentColor(.black)
     }
 }
 
